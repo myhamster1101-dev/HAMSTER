@@ -27,7 +27,7 @@ class StatusSystem(commands.Cog):
         embed.add_field(name="📊 Server Level", value=f"Level {guild.premium_tier}", inline=True)
         
         # ใส่รูปภาพแบนเนอร์ (เปลี่ยน URL เป็นรูปของคุณได้)
-        embed.set_image(url="https://i.imgur.com/rN975W6.png") 
+        embed.set_image(url="https://auto.creavite.co/api/out/rFIP0iomDKyotcsw8y_static.png") 
         embed.set_thumbnail(url=guild.icon.url if guild.icon else None)
         embed.set_footer(text=f"Requested by {ctx.author.name} | p.hxmster System")
 
